@@ -29,4 +29,4 @@ GPIO.add_event_callback(channel, callback)
 # This is an infinte loop to keep our script running
 while True:
 	# This line simply tells our script to wait 0.1 of a second, this is so the script doesnt hog all of the CPU
-	time.sleep(1500)
+	time.sleep(1)
