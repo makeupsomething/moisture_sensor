@@ -9,9 +9,9 @@ import time # This is the time library, we need this so we can use the sleep fun
 
 def callback(channel):  
 	if GPIO.input(channel):
-		print "LED off"
+		print "LED off " + str(channel)
 	else:
-		print "LED on"
+		print "LED on" + str(channel)
 
 # Set our GPIO numbering to BCM
 GPIO.setmode(GPIO.BCM)
